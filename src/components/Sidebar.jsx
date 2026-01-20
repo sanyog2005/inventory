@@ -42,10 +42,10 @@ const Sidebar = () => {
     {
       title: "Administration",
       items: [
-        { to: "/admin/dashboard", icon: <Users size={20}/>, label: "Dashboard", roles: ['admin'] },
+        { to: "/admin/dashboard", icon: <LayoutDashboard size={20}/>, label: "Dashboard", roles: ['admin'] },
 
-        { to: "/admin/users", icon: <Users size={20}/>, label: "User Mgmt", roles: ['admin'] },
-        { to: "/admin/branch", icon: <Users size={20}/>, label: "Branch Mgmt", roles: ['admin'] },
+        { to: "/admin/users", icon: <Users size={20}/>, label: "User Management", roles: ['admin'] },
+        { to: "/admin/branch", icon: <Hexagon size={20}/>, label: "Branch Management", roles: ['admin'] },
 
         { to: "/admin/masters", icon: <Shield size={20}/>, label: "Master Data", roles: ['admin'] },
         { to: "/admin/settings", icon: <Settings size={20}/>, label: "System Config", roles: ['admin'] }
